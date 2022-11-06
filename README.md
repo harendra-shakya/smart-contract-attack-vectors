@@ -1,4 +1,7 @@
-[Best Practices](https://consensys.github.io/smart-contract-best-practices/general-philosophy/)
+
+// TODO: Add and explain all the attack vectors exists on this planet.
+
+
 
 ## All attack vectors -
 
@@ -31,5 +34,3 @@
 # Resources
 
 [Rekt news](https://rekt.news/)
-
-// TODO: Explain about all the vulns
