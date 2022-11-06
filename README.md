@@ -23,3 +23,6 @@
 - Unchecked return values
 - Proxy Storage Collision
 - Loops Gas Limit
+
+# Resources 
+[Rekt news](https://rekt.news/)
