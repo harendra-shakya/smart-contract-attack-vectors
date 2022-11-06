@@ -26,3 +26,6 @@
 
 # Resources 
 [Rekt news](https://rekt.news/)
+
+
+// TODO: Explain about all the vulns
