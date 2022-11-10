@@ -34,3 +34,13 @@
 # Resources
 
 [Rekt news](https://rekt.news/)
+
+[SWC Registry](https://swcregistry.io/)
+
+[DeFi-Threat](https://github.com/manifoldfinance/defi-threat)
+
+[Runtimeverification - List-of-Security-Vulnerabilties](https://github.com/runtimeverification/verified-smart-contracts/wiki/List-of-Security-Vulnerabilities)
+
+[DASP-Top 10](https://www.dasp.co/)
+
+[SCSVS](https://github.com/securing/SCSVS)
