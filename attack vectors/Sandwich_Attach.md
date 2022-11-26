@@ -1,0 +1,4 @@
+At its core, a sandwich attack is a form of front-running that primarily targets decentralized finance protocols and services.
+In a sandwich attack, a nefarious trader looks for a pending transaction on the network of their choice, e.g., Ethereum. The sandwiching occurs by placing one order right before the trade and one right after it. In essence, the attacker will front-run and back-run simultaneously, with the original pending transaction sandwiched in between.
+
+The purpose of placing these two orders and surrounding pending transactions is to manipulate asset prices. First, the culprit will buy the asset the user is swapping to — e.g., using LINK to exchange to ETH — with their knowledge of ETH's price increasing. Then, the culprit will buy ETH for a lower price in order to let the victim buy at a higher value. The attacker will then sell ETH at a higher price afterward.

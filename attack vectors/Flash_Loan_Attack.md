@@ -1,0 +1,1 @@
+A flash loan attack is an abuse of the smart contract security of a particular platform in which an attacker usually borrows a lot of funds that don’t require collateral. They then manipulate the price of a crypto asset on one exchange and quickly resell it on another one.
