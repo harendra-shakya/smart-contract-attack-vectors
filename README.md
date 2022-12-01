@@ -3,14 +3,14 @@
 > Author: Harendra Shakya ([LinkTree](https://linktr.ee/harendra_shakya))
 
 - [Access Control](attack-vectors/Access_Control.md)
-  - Authentication With tx.origin
-  - Default Visibility
-  - Signature Verification
-  - Unprotected Ether Withdrawal
-  - Unprotected SELFDESTRUCT Instruction
-  - Missed Modifier
-  - Incorrect Modifier Names
-  - Overpowered Roles
+  - [Authentication With tx.origin](attack-vectors/Access_Control.md/#authentication-with-txorigin)
+  - [Default Visibility](attack-vectors/Access_Control.md/#default-visibility)
+  - [Signature Verification](attack-vectors/Access_Control.md/#signature-verification)
+  - [Unprotected Ether Withdrawal](attack-vectors/Access_Control.md/#unprotected-ether-withdrawal)
+  - [Unprotected SELFDESTRUCT Instruction](attack-vectors/Access_Control.md/#unprotected-selfdestruct-instruction)
+  - [Missed Modifier](attack-vectors/Access_Control.md/#missed-modifier)
+  - [Incorrect Modifier Names](attack-vectors/Access_Control.md/#incorrect-modifier-names)
+  - [Overpowered Roles](attack-vectors/Access_Control.md/#overpowered-roles)
 - [Account Existence Check for low level calls](attack-vectors/Account_Existence_Check_for_low_level_calls.md)
 - [Arbitrary Jumps with Function Variables](attack-vectors/Arbitrary_Jumps_with_Function_Variables.md)
 - [Assert Violation](attack-vectors/Assert_Violation.md)
@@ -18,9 +18,9 @@
 - [Code With No Effects](attack-vectors/Code_With_No_Effects.md)
 - [Complex Modifiers](attack-vectors/Complex_Modifiers.md)
 - [DOS](attack-vectors/DOS.md)
-  - Unexpected Revert
-  - Block Gas Limit
-  - External Calls without Gas Stipends
+  - [Unexpected Revert](attack-vectors/DOS.md/#unexpected-revert)
+  - [Block Gas Limit](attack-vectors/DOS.md/#block-gas-limit)
+  - [External Calls without Gas Stipends](attack-vectors/DOS.md/#external-calls-without-gas-stipends)
 - [Dirty Higher Order Bits](attack-vectors/Dirty_Higher_Order_Bits.md)
 - [Entropy Illusion / Insecure Randomness](attack-vectors/Entropy_Illusion.md)
 - [Experimental Language Features](attack-vectors/Entropy_Illusion.md)
@@ -28,16 +28,15 @@
 - [Flash Loan Attacks](attack-vectors/Flash_Loan_Attack.md)
 - [Floating Point Arithmetic](attack-vectors/Floating_Point_Arithmetic.md)
 - [Frontend (Off Chain) Attacks](<attack-vectors/Frontend_(Off_Chain)_Attacks.md>)
-  - Short Address Attack
+  - [Short Address Attack](<attack-vectors/Frontend_(Off_Chain)_Attacks.md/>)
 - [Force Feeding](attack-vectors/Force_Feeding.md)
 - [Function Selector Abuse](attack-vectors/Function_Selector_Abuse.md)
 - [Griefing](attack-vectors/Griefing.md)
 - [Hiding Malicious Code](attack-vectors/Hidden_malicious_code.md)
 - [Historic Attacks](attack-vectors/Historic_Attacks.md)
-  - Constructor Names
-  - Call Depth Attack
-  - Constantinople Reentrancy
-  - Solidity Abi Encoder v2 Bug
+  - [Constructor Names](attack-vectors/Historic_Attacks.md/#constructor-names)
+  - [Call Depth Attack](attack-vectors/Historic_Attacks.md/#constructor-names)
+  - [Solidity Abi Encoder v2 Bug](attack-vectors/Historic_Attacks.md/#solidity-abi-encoder-v2-bug)
 - [Improper Array Deletion](attack-vectors/Improper_Array_Deletion.md)
 - [Incorrect Interface](attack-vectors/Incorrect_Interface.md)
 - [Insufficient Gas Attacks](attack-vectors/Insufficient_Gas_Attacks.md)
@@ -45,8 +44,8 @@
 - [Loop through long arrays](attack-vectors/Loop_through_long_arrays.md)
 - [Message call with hardcoded gas amount](attack-vectors/Message_call_with_hardcoded_gas_amount.md)
 - [Miner Attacks](attack-vectors/Miners_Attack.md)
-  - Transaction Ordering / Frontrunning
-  - Timestamp Manipulation
+  - [Transaction Ordering / Frontrunning](attack-vectors/Miners_Attack.md/#transaction-ordering--frontrunning)
+  - [Timestamp Manipulation](attack-vectors/Miners_Attack.md/#timestamp-manipulation)
 - [Offline Owner](attack-vectors/Offline_Owner.md)
 - [Oracle Manipulation](attack-vectors/Oracle_Manipulation.md)
 - [Outdated Compiler](attack-vectors/Outdated_Compiler.md)
