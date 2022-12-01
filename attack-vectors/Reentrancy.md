@@ -110,3 +110,9 @@ contract ReEntrancyGuard {
 ```
 
 Example taken from [Solidity by Example](https://solidity-by-example.org/hacks/re-entrancy/)
+
+#
+
+- [SWC Registry: Reentrancy](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-107)
+- [Sigmaprime: Reentrancy](https://blog.sigmaprime.io/solidity-security.html#reentrancy)
+- [Trail of Bits: Reentrancy](https://github.com/crytic/not-so-smart-contracts/tree/master/reentrancy)

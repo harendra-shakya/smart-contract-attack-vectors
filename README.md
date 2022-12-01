@@ -1,12 +1,8 @@
-// TODO: Add and explain all the attack vectors exists on this planet.
-
 ## List of Security Vulnerabilities
 
 > Author: Harendra Shakya ([LinkTree](https://linktr.ee/harendra_shakya))
 
-- Reentrancy
-- Oracle Manipulation
-- Access Control
+- [Access Control](attack-vectors/Access_Control.md)
   - Authentication With tx.origin
   - Default Visibility
   - Signature Verification
@@ -15,96 +11,81 @@
   - Missed Modifier
   - Incorrect Modifier Names
   - Overpowered Roles
-- Signature Replay
-- Unsafe Delegatecalls
-- Sandwich Attacks
-- Flash Loan Attacks
-- Griefing
-- Force Feeding
-- Account Existence Check for low level calls
-- Cross-Chain Bridge manipulation
-- Insecure Randomness
-- Accessing Private Data
-- Authentication With tx.origin
-- Delegatecall
-- Integer Arithmetic
-- Block timestamp Manipulation
-- Unsafe external calls
-- Unchecked return values
-- Proxy Storage Collision
-- Floating Point Arithmetic
-- Code Injection via delegatecall
-- Unchecked External Calls
-- Insufficient Gas Attacks
-- DOS
+- [Account Existence Check for low level calls](attack-vectors/Account_Existence_Check_for_low_level_calls.md)
+- [Arbitrary Jumps with Function Variables](attack-vectors/Arbitrary_Jumps_with_Function_Variables.md)
+- [Assert Violation](attack-vectors/Assert_Violation.md)
+- [Bypass Contract Size Check](attack-vectors/Bypass_Contract_Size_Check.md)
+- [Code With No Effects](attack-vectors/Code_With_No_Effects.md)
+- [Complex Modifiers](attack-vectors/Complex_Modifiers.md)
+- [DOS](attack-vectors/DOS.md)
   - Unexpected Revert
   - Block Gas Limit
   - External Calls without Gas Stipends
-- Offline Owner
-- Entropy Illusion
-- Privacy Illusion
-- Miner Attacks
-  - Transaction Ordering / Frontrunning
-  - Timestamp Manipulation
-- Unexpected Ether
-- External Contract Referencing
-- Uninitialized Storage Pointers
-- Writes to Arbitrary Storage Locations
-- Incorrect Interface
-- Arbitrary Jumps with Function Variables
-- Variable Shadowing
-- Assert Violation
-- Dirty Higher Order Bits
-- Complex Modifiers
-- Outdated Compiler
-- Use of Deprecated Solidity Functions
-- Function Selector Abuse
-- Experimental Language Features
-- Constructor call
-- Frontend (Off Chain) Attacks
+- [Dirty Higher Order Bits](attack-vectors/Dirty_Higher_Order_Bits.md)
+- [Entropy Illusion / Insecure Randomness](attack-vectors/Entropy_Illusion.md)
+- [Experimental Language Features](attack-vectors/Entropy_Illusion.md)
+- [External Contract Referencing](attack-vectors/External_Contrac_Referencing.md)
+- [Flash Loan Attacks](attack-vectors/Flash_Loan_Attack.md)
+- [Floating Point Arithmetic](attack-vectors/Floating_Point_Arithmetic.md)
+- [Frontend (Off Chain) Attacks](<attack-vectors/Frontend_(Off_Chain)_Attacks.md>)
   - Short Address Attack
-- Historic Attacks
+- [Force Feeding](attack-vectors/Force_Feeding.md)
+- [Function Selector Abuse](attack-vectors/Function_Selector_Abuse.md)
+- [Griefing](attack-vectors/Griefing.md)
+- [Hiding Malicious Code](attack-vectors/Hidden_malicious_code.md)
+- [Historic Attacks](attack-vectors/Historic_Attacks.md)
   - Constructor Names
   - Call Depth Attack
   - Constantinople Reentrancy
   - Solidity Abi Encoder v2 Bug
-- Payable Multicall
-- Bypass Contract Size Check
-- Code With No Effects
-- Logical Issues
-- Floating Pragma
-- Hash Collisions With Multiple Variable Length Arguments
-- Improper Array Deletion
-- Insufficient gas griefing
-- Unsafe Ownership Transfer
-- Loop through long arrays
-- Message call with hardcoded gas amount
-- Precision Loss in Calculations
-- Hiding Malicious Code with External Contract
-- Public burn
-- Requirement Violation
-- Right-To-Left-Override control character (U+202E)
-- Signature Malleability
-- Transaction Order Dependence
-- Typographical Error
-- Unprotected Upgrades
-- Unused Variable
-- Wrong inheritance
-- Governance Attack
-- Honeypot
+- [Improper Array Deletion](attack-vectors/Improper_Array_Deletion.md)
+- [Incorrect Interface](attack-vectors/Incorrect_Interface.md)
+- [Insufficient Gas Attacks](attack-vectors/Insufficient_Gas_Attacks.md)
+- [Integer Arithmetic](attack-vectors/Integer_Arithmetic.md)
+- [Loop through long arrays](attack-vectors/Loop_through_long_arrays.md)
+- [Message call with hardcoded gas amount](attack-vectors/Message_call_with_hardcoded_gas_amount.md)
+- [Miner Attacks](attack-vectors/Miners_Attack.md)
+  - Transaction Ordering / Frontrunning
+  - Timestamp Manipulation
+- [Offline Owner](attack-vectors/Offline_Owner.md)
+- [Oracle Manipulation](attack-vectors/Oracle_Manipulation.md)
+- [Outdated Compiler](attack-vectors/Outdated_Compiler.md)
+- [Payable Multicall](attack-vectors/Payable_Multicall.md)
+- [Precision Loss in Calculations](attack-vectors/Precision_Loss_in_Calculations.md)
+- [Privacy Illusion](attack-vectors/Privacy_Illusion.md)
+- [Proxy Storage Collision](attack-vectors/Proxy_Storage_Collision.md)
+- [Reentrancy](attack-vectors/Reentrancy.md)
+- [Right-To-Left-Override control character (U+202E)](<attack-vectors/Right-To-Left-Override_control_character_(U%2B202E).md>)
+- [Sandwich Attacks](attack-vectors/Sandwich_Attack.md)
+- [Signature Replay](attack-vectors/Signature_Replay.md)
+- [Unchecked External Calls](attack-vectors/Unchecked_External_Calls.md)
+- [Uninitialized Storage Pointers](attack-vectors/Uninitialized_Storage_Pointers.md)
+- [Unprotected Upgrades](attack-vectors/Unprotected_Upgrades.md)
+- [Unsafe Delegatecalls](attack-vectors/Unsafe_Delegatecall.md)
+- [Unused Variable](attack-vectors/Unused_Variable.md)
+- [Use of Deprecated Solidity Functions](attack-vectors/Use_of_Deprecated_Solidity_Functions.md)
+- [Variable Shadowing](attack-vectors/Variable_Shadowing.md)
+- [Writes to Arbitrary Storage Locations](attack-vectors/Writes_to_Arbitrary_Storage_Locations.md)
+- [Wrong inheritance](attack-vectors/Wrong_inheritance.md)
 
 #
 
 # References
 
-[Rekt news](https://rekt.news/)
-
 [SWC Registry](https://swcregistry.io/)
+
+[Sigmaprime Solidity Security](https://blog.sigmaprime.io/solidity-security.html)
+
+[Consensys Best Practices](https://consensys.github.io/smart-contract-best-practices/known_attacks/)
+
+[DASP-Top 10](https://www.dasp.co/)
+
+[Solidity Documentation: Security Considerations](https://docs.soliditylang.org/en/latest/security-considerations.html)
+
+[Ethereum Wiki: Safety](https://github.com/ethereum/wiki/wiki/Safety)
+
+[Trail of Bits Reference List](https://github.com/crytic/awesome-ethereum-security)
 
 [DeFi-Threat](https://github.com/manifoldfinance/defi-threat)
 
 [Runtimeverification - List-of-Security-Vulnerabilties](https://github.com/runtimeverification/verified-smart-contracts/wiki/List-of-Security-Vulnerabilities)
-
-[DASP-Top 10](https://www.dasp.co/)
-
-[SCSVS](https://github.com/securing/SCSVS)

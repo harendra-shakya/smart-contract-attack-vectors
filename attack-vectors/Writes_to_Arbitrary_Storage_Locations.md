@@ -1,0 +1,3 @@
+A smart contract's data (e.g., storing the owner of the contract) is persistently stored at some storage location (i.e., a key or address) on the EVM level. The contract is responsible for ensuring that only authorized user or contract accounts may write to sensitive storage locations. If an attacker is able to write to arbitrary storage locations of a contract, the authorization checks may easily be circumvented. This can allow an attacker to corrupt the storage; for instance, by overwriting a field that stores the address of the contract owner.
+
+- [SWC Registry: Write to Arbitrary Storage Location](https://smartcontractsecurity.github.io/SWC-registry/docs/SWC-124)

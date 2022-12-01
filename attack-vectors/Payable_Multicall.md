@@ -1,0 +1,5 @@
+This is present when Multicall is used on any contract which reads the value of `msg.value`. Multicall is a pattern to call several contract endpoints in one transaction, using `delegatecall`. A contract endpoint may implicitly assume that it is called in a single transaction, by looking at `msg.value`. Since the value is defined per transaction, calling the same endpoint twice in one multicall means that the same `msg.value` may be read several times, even though the value was only transferred once.
+
+For example, if a token contract accepts ETH in exchange for tokens in a `swap` function, and the contract implements multicall, an attacker may call swap several times in one transaction. Let's say the attacker sends along 1 ETH in the multicall transaction, which would normally give them 100 tokens. Each call to the `swap` function will read `msg.value` and transfer 100 tokens to the attacker. If the attacker calls `swap` 10 times in one multicall, they will get 1,000 tokens in exchange for 1 ETH.
+
+- [Uniswap v3 issue](https://github.com/Uniswap/v3-periphery/issues/52)
