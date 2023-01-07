@@ -1,6 +1,12 @@
-## List of Security Vulnerabilities
+# Smart contract attack vectors
 
-[![Support Project](https://img.shields.io/badge/Support-Project-critical)](https://github.com/harendra-shakya/support/blob/main/README.md) 
+The Goal of this repo to have possible smart contract vulnerabilities and resources to learn.
+
+Feel free to submit a pull request, with anything from small fixes to docs or tools you'd like to add.
+
+[![Support Project](https://img.shields.io/badge/Support-Project-critical)](https://github.com/harendra-shakya/support/blob/main/README.md)
+
+## List of Security Vulnerabilities
 
 - [Access Control](attack-vectors/Access_Control.md)
   - [Authentication With tx.origin](attack-vectors/Access_Control.md/#authentication-with-txorigin)
@@ -69,22 +75,18 @@
 
 #
 
-# References
+## [CTFs](tools-and-ctfs/CTFs.md)
 
-[SWC Registry](https://swcregistry.io/)
+## [Security Tools](tools-and-ctfs/Web3_Security_Tools.md)
 
-[Sigmaprime Solidity Security](https://blog.sigmaprime.io/solidity-security.html)
+#
 
-[Consensys Best Practices](https://consensys.github.io/smart-contract-best-practices/known_attacks/)
+# Other useful resources
 
-[DASP-Top 10](https://www.dasp.co/)
+- [The Auditors Book](https://theauditorbook.com/)
 
-[Solidity Documentation: Security Considerations](https://docs.soliditylang.org/en/latest/security-considerations.html)
+- [CryptoFin Solidity Auditing Checklist](https://github.com/cryptofinlabs/audit-checklist)
 
-[Ethereum Wiki: Safety](https://github.com/ethereum/wiki/wiki/Safety)
+- [SWC Registry](https://swcregistry.io/)
 
-[Trail of Bits Reference List](https://github.com/crytic/awesome-ethereum-security)
-
-[DeFi-Threat](https://github.com/manifoldfinance/defi-threat)
-
-[Runtimeverification - List-of-Security-Vulnerabilties](https://github.com/runtimeverification/verified-smart-contracts/wiki/List-of-Security-Vulnerabilities)
+- [Trail of Bits Reference List](https://github.com/crytic/awesome-ethereum-security)
