@@ -1,6 +1,6 @@
 # Smart contract attack vectors
 
-The Goal of this repo to have possible smart contract vulnerabilities and resources to learn.
+The Goal of this repo is to have possible smart contract vulnerabilities and resources to learn.
 
 Feel free to submit a pull request, with anything from small fixes to docs or tools you'd like to add.
 
@@ -78,8 +78,6 @@ Feel free to submit a pull request, with anything from small fixes to docs or to
 ## [CTFs](tools-and-ctfs/CTFs.md)
 
 ## [Security Tools](tools-and-ctfs/Web3_Security_Tools.md)
-
-#
 
 # Other useful resources
 
