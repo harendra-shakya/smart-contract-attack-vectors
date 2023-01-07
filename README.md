@@ -1,6 +1,6 @@
 # Smart contract attack vectors
 
-The Goal of this repo is to have possible smart contract vulnerabilities and resources to learn.
+The goal of this repository is to compile all possible smart contract vulnerabilities and resources for learning about them.
 
 Feel free to submit a pull request, with anything from small fixes to docs or tools you'd like to add.
 
