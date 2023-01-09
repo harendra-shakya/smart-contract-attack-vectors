@@ -6,7 +6,7 @@ Let's say that contract A calls contract B.
 
 Reentracy exploit allows B to call back into A before A finishes execution.
 
-```
+```solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.13;
 
