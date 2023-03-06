@@ -29,7 +29,7 @@ Feel free to submit a pull request, with anything from small fixes to docs or to
   - [External Calls without Gas Stipends](attack-vectors/DOS.md/#external-calls-without-gas-stipends)
 - [Dirty Higher Order Bits](attack-vectors/Dirty_Higher_Order_Bits.md)
 - [Entropy Illusion / Insecure Randomness](attack-vectors/Entropy_Illusion.md)
-- [Experimental Language Features](attack-vectors/Entropy_Illusion.md)
+- [Experimental Language Features](attack-vectors/Experimental_Language_Features.md)
 - [External Contract Referencing](attack-vectors/External_Contrac_Referencing.md)
 - [Flash Loan Attacks](attack-vectors/Flash_Loan_Attack.md)
 - [Floating Point Arithmetic](attack-vectors/Floating_Point_Arithmetic.md)
