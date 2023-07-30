@@ -111,6 +111,8 @@ Much much thanks every single one of you! Your support enables me to create more
 
 #
 
+Drop me a message on LinkedIn if you have any doubts or need any help -
+
 <p align="left">
       <a href="https://www.linkedin.com/in/harendra-shakya" target="_blank" rel="noreferrer">
         <img
