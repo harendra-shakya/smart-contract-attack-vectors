@@ -79,6 +79,105 @@ Feel free to submit a pull request, with anything from small fixes to docs or to
 
 ## [Security Tools](tools-and-ctfs/Web3_Security_Tools.md)
 
+## Articles / Papers to read
+
+- Blockchain Security Roadmap - https://lnkd.in/gPw7Nf4J
+
+
+
+
+
+- The Eye of Horus: Spotting and Analyzing Attacks on Ethereum Smart Contracts - https://lnkd.in/gnzDrXaH
+
+
+
+- BLOCKEYE - Hunting For DeFi Attacks on Blockchain - https://lnkd.in/gvxmW8Hu
+
+
+
+- Topological Anomaly Detection in Dynamic Multilayer Blockchain Networks - https://lnkd.in/gPG6vrAM
+
+
+
+- Verification of the Incremental Merkle Tree Algorithm with Dafny - https://lnkd.in/gfk3YrEd
+
+
+
+- GoHammer Blockchain Performance Test Tool - https://lnkd.in/gHhjWdHj
+
+
+
+- EtherClue: Digital investigation of attacks on Ethereum smart contracts - https://lnkd.in/gvuaaKaT
+
+
+
+- Requirement Analyses and Evaluations of Blockchain Platforms per Possible Use Cases - https://lnkd.in/g7G9Rpxj
+
+
+
+- A Note on Privacy in Constant Function Market Makers - https://lnkd.in/guEEV7Gm
+
+
+
+- An approach to detect Denial of Service Vulnerability in Ethereum Smart Contracts - https://lnkd.in/gT3C-9fq
+
+
+
+- AGSolT: a Tool for Automated Test-Case Generation for Solidity Smart Contracts - https://lnkd.in/gYDvEndF
+
+
+
+- Reentrancy Vulnerability Identification in Ethereum Smart Contracts - https://lnkd.in/g6EVMjpg
+
+
+
+- Coinbugs: Enumerating Common Blockchain Implementation-Level Vulnerabilities - https://lnkd.in/gqTS47JW
+
+
+
+- SuMo: A Mutation Testing Strategy for Solidity Smart Contracts - https://lnkd.in/gm_ut_ev
+
+
+
+- A Framework and DataSet for Bugs in Ethereum Smart Contracts - https://lnkd.in/gGNzC8iz
+
+
+
+- Extracting Smart Contracts Tested and Verified in Coq - https://lnkd.in/gYv2VgFJ
+
+
+
+- Trustless, privacy-preserving blockchain bridges - https://lnkd.in/gxzndTd2
+
+
+
+- Security checklists for Ethereum smart contract development: patterns and best practices - https://lnkd.in/grF8DuMU
+
+
+
+- Dynamic Vulnerability Detection on Smart Contracts Using Machine Learning - https://lnkd.in/gpbsEGve
+
+
+
+- Targeting the Weakest Link: Social Engineering Attacks in Ethereum Smart Contracts - https://lnkd.in/g38PzXy3
+
+
+
+- OptSmart: A Space Efficient Optimistic Concurrent Execution of Smart Contracts - https://lnkd.in/gFJhgamn
+
+
+
+- DEFECTCHECKER: Automated Smart Contract Defect Detection by Analyzing EVM Bytecode - https://lnkd.in/gKNNN34h
+
+
+
+- Profiling Gas Leaks in Solidity Smart Contracts - https://lnkd.in/g2dMHYac
+
+
+
+- Ethereum SmartContract Vulnerability Detection using Deep Neural Network and Transfer Learning - https://lnkd.in/gV8Thsxe
+
+
 # Other useful resources
 
 - [The Auditors Book](https://theauditorbook.com/)
