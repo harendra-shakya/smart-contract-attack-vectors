@@ -21,6 +21,7 @@
 - [Mythril](https://github.com/ConsenSys/mythril/) - Open-source security analysis tool for Ethereum smart contracts built around detector modules
 - [Securify v2](https://github.com/eth-sri/securify2) - Static analysis tool from ChainSecurity
 - [Slither](https://github.com/trailofbits/slither) - Static analysis framework, written in Python, with detectors for many common Solidity issues
+- [L3X](https://github.com/VulnPlanet/l3x) - AI-driven Smart Contract Static Analyzer
 
 ### Verification tools
 
